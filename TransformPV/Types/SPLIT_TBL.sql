@@ -1,0 +1,11 @@
+Prompt Type SPLIT_TBL;
+--
+-- SPLIT_TBL  (Type) 
+--
+--  Dependencies: 
+--   STANDARD (Package)
+--
+CREATE OR REPLACE TYPE &TRANSFORMPV_USER..SPLIT_TBL AS TABLE OF VARCHAR2 (2000);
+/
+
+

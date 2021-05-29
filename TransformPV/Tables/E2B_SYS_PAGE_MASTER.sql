@@ -1,0 +1,25 @@
+Prompt Table E2B_SYS_PAGE_MASTER;
+--
+-- E2B_SYS_PAGE_MASTER  (Table) 
+--
+CREATE TABLE &TRANSFORMPV_USER..E2B_SYS_PAGE_MASTER
+(
+  PAGE_ID                 NUMBER                NOT NULL,
+  PAGE_NAME               VARCHAR2(50 CHAR)     NOT NULL,
+  PAGE_URL                VARCHAR2(1000 CHAR),
+  SHOW_IN_ERR_AUDIT_PAGE  NUMBER                DEFAULT 1,
+  CREATED_DATE            DATE,
+  MODIFIED_DATE           DATE,
+  DELETED                 NUMBER                DEFAULT 0,
+  DELETED_DATE            DATE,
+  ENTERPRISE_ID           NUMBER,
+  AN_PAGE_ID              VARCHAR2(100 CHAR),
+  CREATED_BY              NUMBER,
+  MODIFIED_BY             NUMBER
+)
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING
+/
