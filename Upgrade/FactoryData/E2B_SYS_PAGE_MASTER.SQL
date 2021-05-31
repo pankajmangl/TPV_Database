@@ -1,0 +1,2 @@
+
+update	&TRANSFORMPV_USER..E2B_SYS_PAGE_MASTER set DELETED = 1 where PAGE_ID = 7;

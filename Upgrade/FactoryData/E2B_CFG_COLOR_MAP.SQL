@@ -1,0 +1,5 @@
+update &TRANSFORMPV_USER..E2B_CFG_COLOR_MAP
+set TRUNCATED_TEXT = '9BF7FE'
+where color_id = 1;
+
+	

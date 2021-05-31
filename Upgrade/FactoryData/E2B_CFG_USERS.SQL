@@ -1,0 +1,2 @@
+
+update 	&TRANSFORMPV_USER..E2B_CFG_USERS set ENTERPRISE_ID = 1 where USER_ID =1;
